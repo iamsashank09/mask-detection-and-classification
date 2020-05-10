@@ -105,7 +105,7 @@ if __name__ == "__main__":
     cap = cv2.VideoCapture(videoPath)
     fno = 0
 
-    modelPath = "model/Res50oneFC_model.pth"
+    modelPath = "models/Res50oneFC_model.pth"
 
     detectorObj = MaskDetector(modelPath)
 
