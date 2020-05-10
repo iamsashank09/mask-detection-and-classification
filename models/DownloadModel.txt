@@ -1,0 +1,3 @@
+Download the ".pth" file from the link below. Place it in the models folder. Example: "models/Res50oneFC_model.pth"
+
+https://drive.google.com/open?id=19TwyycoDwUVJ3DWdsHJGbOXIgp8nvn2e
