@@ -1,4 +1,4 @@
-# Mask Detection and Classification | Masked or No Mask detection | Deep Learning and Computer Vision
+# Mask Detection and Classification | Mask or No Mask detection | Deep Learning and Computer Vision
 
 A deep understanding of the current COVID-19 pandemic shows how one person's negligence can cause widespread harm. Since the general public is getting back on the streets and employees going back to their workplaces, it is extremely important for everyone to adorn face-masks as suggested by WHO, to keep themselves and others safe. [WHO: value of masks](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/when-and-how-to-use-masks)
 
