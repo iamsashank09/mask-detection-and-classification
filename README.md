@@ -34,5 +34,5 @@ While working on this project, I started having concerns over how this kind of m
 ### Resources:
 The [Medical Mask Dataset](https://www.kaggle.com/vtech6/medical-masks-dataset) from Kaggle.
 
-Input video used for testing and development: [CBS17 Youtube]([https://www.youtube.com/watch?v=VCR6lzXPy2A](https://www.youtube.com/watch?v=VCR6lzXPy2A))
+Input video used for testing and development: [CBS17 Youtube](https://www.youtube.com/watch?v=VCR6lzXPy2A)
 
