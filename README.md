@@ -26,6 +26,25 @@ The maskDetectionApp.py file contains the code to run the application. Before wh
 
 Then the program will ask for the path of the video, please pass the path to the video file and the output will be saved in the "outputs" folder.
 
+### Data, Model Architecture and Training:
+You will find the training notebook at [MaskDetectionNet.ipynb](https://github.com/iamsashank09/mask-detection-and-classification/blob/master/MaskDetectionNet.ipynb) in the repository.
+##### Data
+The Dataset I've used is from the Eden Social Welfare foundation, Taiwan. Link in the resource section.
+The dataset contains pictures of people wearing medical masks along with XML files containing their descriptions. The XML files contain their locations and labels _good, none_ or _bad_. I've ignored the *none* and only used the good and bad images.
+I haven't included data pre-processing in the notebook. 
+
+##### Implementation:
+
+ - I used [PyTorch](https://pytorch.org/) to implement my network. This is my first
+   experience with PyTorch and it has been swift and easy.
+- I trained a Convolutional Neural Network for image classification using Transfer Learning.
+- The architecture used is ResNet18, with a new Fully Connected layer.
+- I downloaded the ResNet18 model with it's pre-trained parameters from the `torchvision.models` module.
+- Then I froze the entire network except the 4th and the Fully connected layers by using `requires_grad == False` to freeze the parameters. 
+- Trained the model on a GPU for `20 EPOCHS` and `BATCH_SIZE = 20` while tweaking the learning rate, arriving at a close to 99% accuracy. 
+
+
+
 ### Concerns over such monitoring applications:
 As with my previous project on [Social Distance monitoring application](https://github.com/iamsashank09/social-distance-dashboard).
 While working on this project, I started having concerns over how this kind of monitoring can be used to create spaces with no freedom, which is scary. I understand this kind of work can be used to boost authoritarianism and force suppression. I can only hope we always keep in mind the freedoms of the individual while we build a safe society.  
